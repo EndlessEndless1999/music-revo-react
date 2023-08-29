@@ -3,6 +3,7 @@
 import './App.css'
 import  Title  from './components/Title'
 import  CardContainer  from './components/CardContainer'
+import Form from './components/Form'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Title />
       <CardContainer />
+      <Form />
     </>
   )
 }

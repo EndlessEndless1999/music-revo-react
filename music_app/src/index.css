@@ -46,8 +46,35 @@ html {
   width: 50%;
 }
 
+.form {
+  font-size: larger;
+  margin-top: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  text-align: center;
+}
+
+.form > input {
+  padding: 3%;
+}
+
+.form > button {
+  padding: 3%;
+  width: 50%;
+  position: relative;
+  margin-top: 3%;
+  left: 25%;
+}
+
+
 .li-cont {
   display: flex;
+  width: 40%;
+  justify-content: space-around;
 }
 
 .hero-title {
