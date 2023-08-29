@@ -26,4 +26,31 @@
   align-items: center;
 }
 
+.card-content-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.card-img {
+  background-image: url(./assets/img/isnt_anything.webp);
+  height: 320px;
+  width: 320px;
+}
+
+.card-img-loveless {
+  background-image: url(./assets/img/loveless.webp);
+  height: 320px;
+  width: 320px;
+}
+
+.card-img-eps {
+  background-image: url(./assets/img/eps.webp);
+  height: 320px;
+  width: 320px;
+}
+
+/* .toggle-panel {
+  position: fixed;
+} */
 
