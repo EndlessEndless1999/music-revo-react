@@ -22,13 +22,33 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0;  
+}
+
+.loveless-red {
   background: 
-      repeating-radial-gradient(#7220d507 0 0.0001%,#a91414 0 0.06%) 10% 0/2500px 2500px,
-      repeating-conic-gradient(#000 0 0.0001%,#c90b0b3a 0 0.0002%) 10% 60%/2500px 2500px;
-    background-blend-mode: difference;
-    animation: b 0.8s infinite;
-  
+  repeating-radial-gradient(#7220d507 0 0.0001%,#a91414 0 0.06%) 10% 0/2500px 2500px,
+  repeating-conic-gradient(#000 0 0.0001%,#c90b0b3a 0 0.0002%) 10% 60%/2500px 2500px;
+  background-blend-mode: difference;
+  animation: b 0.8s infinite;
+}
+
+.isnt-white {
+  background: 
+  repeating-radial-gradient(#7220d507 0 0.0001%,#eec5c5 0 0.06%) 10% 0/2500px 2500px,
+  repeating-conic-gradient(#000 0 0.0001%,#f1eaea3a 0 0.0002%) 10% 60%/2500px 2500px;
+  background-blend-mode: difference;
+  animation: b 0.8s infinite;
+  color: #000;
+}
+
+.ep-blue {
+  background: 
+  repeating-radial-gradient(#7220d507 0 0.0001%,#1d88da 0 0.06%) 10% 0/2500px 2500px,
+  repeating-conic-gradient(#282ed5 0 0.0001%,#f1eaea3a 0 0.0002%) 10% 60%/2500px 2500px;
+  background-blend-mode: difference;
+  animation: b 0.8s infinite;
+  color: #e9dddd;
 }
 
 @keyframes b{
