@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,11 +18,21 @@
   box-sizing: border-box;
 }
 
-html, body {
+html {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  background: 
+      repeating-radial-gradient(#7220d507 0 0.0001%,#a91414 0 0.06%) 10% 0/2500px 2500px,
+      repeating-conic-gradient(#000 0 0.0001%,#c90b0b3a 0 0.0002%) 10% 60%/2500px 2500px;
+    background-blend-mode: difference;
+    animation: b 0.8s infinite;
+  
+}
+
+@keyframes b{
+  100% {background-position: 50% 0, 60% 50%}
 }
 
 #sha {

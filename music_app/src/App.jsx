@@ -2,7 +2,7 @@
 import './App.css'
 import  Title  from './components/Title'
 import  CardContainer  from './components/CardContainer'
-import MyCanvas from './components/Canvas'
+import Foreground from './components/ForeGround'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <Title />
       <CardContainer />
-      <MyCanvas />
+      <Foreground />
     </>
   )
 }
