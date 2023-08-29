@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 
-export const Card = () => {
+export default function Card() {
 
 
     const openCard = () => {

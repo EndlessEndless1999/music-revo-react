@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Card from './Card';
+// import React, { useState } from 'react';
+import Card from './Card'
 
 
-const CardContainer = () => {
+export default function CardContainer() {
     return(
         <div className="card-container">
             <Card />
