@@ -1,8 +1,8 @@
 // import { useState } from 'react'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import  Title  from './components/Title'
 import  CardContainer  from './components/CardContainer'
-import Foreground from './components/ForeGround'
 
 function App() {
 
@@ -10,7 +10,6 @@ function App() {
     <>
       <Title />
       <CardContainer />
-      <Foreground />
     </>
   )
 }

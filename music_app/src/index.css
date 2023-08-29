@@ -39,6 +39,12 @@ html {
   z-index: 5;
 }
 
+.toggle-panel {
+  position: absolute;
+  top: 550px;
+  word-wrap: break-word
+}
+
 .hero-title {
   text-align: center;
   margin-top: 5%;
@@ -53,7 +59,7 @@ html {
 
 .card-content-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
 }
 
