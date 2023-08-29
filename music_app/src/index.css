@@ -42,7 +42,12 @@ html {
 .toggle-panel {
   position: absolute;
   top: 550px;
-  word-wrap: break-word
+  word-wrap: break-word;
+  width: 50%;
+}
+
+.li-cont {
+  display: flex;
 }
 
 .hero-title {

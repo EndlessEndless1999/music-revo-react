@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import TrackButton from './TrackButton';
 
 export default function DropCard(props) {
-    const closeCard = () => {
-        return
-    }
+
 
 
 
@@ -12,10 +11,12 @@ export default function DropCard(props) {
         <p className='card-description'>{props.description}</p>
         <ul>
             {props.tracklist.map((track, index) => (
-                <li key={props.tracklist[index]}>{props.tracklist[index]}</li>
+                <div key={props.tracklist[index]} className='li-cont'>
+                    <li key={props.tracklist[index]}>{props.tracklist[index]}</li>
+                    <TrackButton />
+                </div>
             ))}
         </ul>
-        <button type='submit' onClick={closeCard}>Close</button>
     </div>
     )
 }
